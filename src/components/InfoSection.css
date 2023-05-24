@@ -1,0 +1,26 @@
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .info-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .info-item i {
+    font-size: 4rem;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
